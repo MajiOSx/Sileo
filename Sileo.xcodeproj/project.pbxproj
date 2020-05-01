@@ -21,16 +21,28 @@
 		172B2EDC22F0A35D000155B9 /* FlaggedSourceWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B2ED622F09E8F000155B9 /* FlaggedSourceWarningViewController.swift */; };
 		1761F827227B5ADD00E03DC3 /* Licenses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1761F826227B5ADD00E03DC3 /* Licenses.plist */; };
 		2C303E136BDF0840EA33EF2C /* libPods-Sileo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 918D4E2F7002457BF5D74A30 /* libPods-Sileo.a */; };
-		461FC22820ED7A48001EA199 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461FC22720ED7A48001EA199 /* Security.framework */; };
 		564BEF7622BFBDD4005FAB07 /* LNPopupControllerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564BEF7522BFBDD4005FAB07 /* LNPopupControllerAssets.xcassets */; };
 		56A5989B214657A700677FCA /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5989A214657A700677FCA /* ZKSwizzle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		56A5989D214657BB00677FCA /* WhiteBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5989C214657BB00677FCA /* WhiteBlur.m */; };
+		7C85EFBF245BC22300B6B41D /* Pods-Sileo.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A37B2E1BFC2EDB87A0534A23 /* Pods-Sileo.debug.xcconfig */; };
+		7C85EFC3245BC22B00B6B41D /* Pods-Sileo.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7EC64EEC60AF07BEC697D2B /* Pods-Sileo.release.xcconfig */; };
+		7C85EFC7245BC23000B6B41D /* Pods-Sileo Demo.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1546CE4D34FD87CCC54164DE /* Pods-Sileo Demo.debug.xcconfig */; };
+		7C85EFCB245BC23400B6B41D /* Pods-Sileo Demo.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FACE6B550508D9BA39986742 /* Pods-Sileo Demo.release.xcconfig */; };
+		7C85EFCF245BC23900B6B41D /* Pods-SileoTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0F188EBBAD9C8BC188BF0448 /* Pods-SileoTests.debug.xcconfig */; };
+		7C85EFD3245BC23E00B6B41D /* Pods-SileoTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23AF36DCE24808B7AB19793A /* Pods-SileoTests.release.xcconfig */; };
+		7C85EFD7245BC24300B6B41D /* Pods-SileoUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EECEE22370A2CBADA8548FBF /* Pods-SileoUITests.debug.xcconfig */; };
+		7C85EFDB245BC24700B6B41D /* Pods-SileoUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E790B6ED939BCE9216A3AEB6 /* Pods-SileoUITests.release.xcconfig */; };
+		7C85EFDF245BC28E00B6B41D /* LNPopupControllerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564BEF7522BFBDD4005FAB07 /* LNPopupControllerAssets.xcassets */; };
+		7C85EFE0245BC28E00B6B41D /* LNPopupControllerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564BEF7522BFBDD4005FAB07 /* LNPopupControllerAssets.xcassets */; };
+		7C85EFE1245BC30000B6B41D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461FC22720ED7A48001EA199 /* Security.framework */; };
+		7C85EFE2245BC30000B6B41D /* Security.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 461FC22720ED7A48001EA199 /* Security.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C85EFE3245BC30300B6B41D /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F102D458212B6ACC007CAF22 /* LNPopupController.framework */; };
+		7C85EFE4245BC30300B6B41D /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F102D458212B6ACC007CAF22 /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C305468621D6900C003E73FC /* PackageListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C305468521D6900C003E73FC /* PackageListHeader.xib */; };
 		C373923621D5E46900E6F704 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C373923421D5E46900E6F704 /* Localizable.strings */; };
 		C373924921D5F80300E6F704 /* Errors.strings in Resources */ = {isa = PBXBuildFile; fileRef = C373924521D5F80300E6F704 /* Errors.strings */; };
 		C373924A21D5F80300E6F704 /* Categories.strings in Resources */ = {isa = PBXBuildFile; fileRef = C373924721D5F80300E6F704 /* Categories.strings */; };
 		C373925921D60B2600E6F704 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = C373925721D60B2600E6F704 /* Localizable.stringsdict */; };
-		CFBC7FD2221D7FE10066D501 /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F102D458212B6ACC007CAF22 /* LNPopupController.framework */; };
 		EF5681A4F9A09E64E1E843F4 /* libPods-SileoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5956E611ADDFB359B3FC80F5 /* libPods-SileoUITests.a */; };
 		F102D1E322CD514C00A4C9BA /* WishListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102D1E222CD514C00A4C9BA /* WishListManager.swift */; };
 		F102D1E522CD7DE300A4C9BA /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102D1E422CD7DE300A4C9BA /* Package.swift */; };
@@ -387,6 +399,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7C85EFE2245BC30000B6B41D /* Security.framework in Embed Frameworks */,
+				7C85EFE4245BC30300B6B41D /* LNPopupController.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,9 +672,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBC7FD2221D7FE10066D501 /* LNPopupController.framework in Frameworks */,
-				461FC22820ED7A48001EA199 /* Security.framework in Frameworks */,
 				2C303E136BDF0840EA33EF2C /* libPods-Sileo.a in Frameworks */,
+				7C85EFE3245BC30300B6B41D /* LNPopupController.framework in Frameworks */,
+				7C85EFE1245BC30000B6B41D /* Security.framework in Frameworks */,
 				F18383F520FBFFB700450EED /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,8 +788,9 @@
 				EECEE22370A2CBADA8548FBF /* Pods-SileoUITests.debug.xcconfig */,
 				E790B6ED939BCE9216A3AEB6 /* Pods-SileoUITests.release.xcconfig */,
 			);
-			path = Pods;
-			sourceTree = "<group>";
+			name = Pods;
+			path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/../../../../../../../../../Users/mercyhearts/Documents/Sileo:swiftlint/Pods";
+			sourceTree = "<absolute>";
 		};
 		C315A7BC217D99C200341243 /* Base */ = {
 			isa = PBXGroup;
@@ -1850,23 +1865,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85EFDB245BC24700B6B41D /* Pods-SileoUITests.release.xcconfig in Resources */,
 				F149E0BD20B6040B005CA30B /* Assets.xcassets in Resources */,
 				C373924A21D5F80300E6F704 /* Categories.strings in Resources */,
 				F19265D42106E00600B31E13 /* CydiaAccountViewController.xib in Resources */,
 				F1CB2EFB2146511100641808 /* DepictionSubpageViewController.xib in Resources */,
 				F178CD8921323E3800F927FA /* DownloadsTableViewController.xib in Resources */,
 				C373924921D5F80300E6F704 /* Errors.strings in Resources */,
+				7C85EFCF245BC23900B6B41D /* Pods-SileoTests.debug.xcconfig in Resources */,
 				F1D349102118CADD00CADF87 /* FeaturedViewController.xib in Resources */,
 				1716FD7321D5354100124AD2 /* FlaggedSourceWarningViewController.xib in Resources */,
 				F1034020213746B600B9180B /* InstallViewController.xib in Resources */,
 				F1FCE02B213A0BE400D4697A /* InstalledContentsViewController.xib in Resources */,
+				7C85EFC3245BC22B00B6B41D /* Pods-Sileo.release.xcconfig in Resources */,
+				7C85EFD7245BC24300B6B41D /* Pods-SileoUITests.debug.xcconfig in Resources */,
+				7C85EFD3245BC23E00B6B41D /* Pods-SileoTests.release.xcconfig in Resources */,
 				564BEF7622BFBDD4005FAB07 /* LNPopupControllerAssets.xcassets in Resources */,
 				F149E0C020B6040B005CA30B /* LaunchScreen.storyboard in Resources */,
 				1761F827227B5ADD00E03DC3 /* Licenses.plist in Resources */,
 				C373923621D5E46900E6F704 /* Localizable.strings in Resources */,
 				C373925921D60B2600E6F704 /* Localizable.stringsdict in Resources */,
+				7C85EFCB245BC23400B6B41D /* Pods-Sileo Demo.release.xcconfig in Resources */,
 				F149E0BB20B6040B005CA30B /* Main.storyboard in Resources */,
+				7C85EFBF245BC22300B6B41D /* Pods-Sileo.debug.xcconfig in Resources */,
 				F13AD30F23F9306F0035986E /* sileo-apt.conf in Resources */,
+				7C85EFC7245BC23000B6B41D /* Pods-Sileo Demo.debug.xcconfig in Resources */,
 				F11CD90F20DBF777000C62C3 /* PackageCollectionViewCell.xib in Resources */,
 				C305468621D6900C003E73FC /* PackageListHeader.xib in Resources */,
 				F1974939213695660065E630 /* PackageListHeaderBlank.xib in Resources */,
@@ -1881,6 +1904,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85EFDF245BC28E00B6B41D /* LNPopupControllerAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1888,6 +1912,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85EFE0245BC28E00B6B41D /* LNPopupControllerAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
